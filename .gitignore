@@ -1,0 +1,6 @@
+.DS_Store
+.vscode/
+
+# Reports generated during the lab
+workspace/output/*
+!workspace/output/.gitkeep
