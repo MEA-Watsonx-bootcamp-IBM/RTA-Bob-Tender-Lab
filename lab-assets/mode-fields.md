@@ -52,5 +52,3 @@ If the settings screen does not offer the file pattern, open `workspace/.bob/cus
           description: HTML reports in output/ only
       - skill
 ```
-
-The finished file is in `solutions/.bob/custom_modes.yaml`.
