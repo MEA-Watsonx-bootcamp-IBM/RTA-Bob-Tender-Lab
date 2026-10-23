@@ -12,14 +12,15 @@ Hands-on lab: build a **Tender Validator** mode in IBM Bob that checks a governm
 ## Get started
 
 1. Clone or download this repository.
-2. Open **[Lab-Guide.pdf](Lab-Guide.pdf)** and follow it from Exercise 0.
+2. Open the **[Lab Guide](LAB-GUIDE.md)** and follow it from Exercise 0. A PDF copy is in [docs/Lab-Guide.pdf](docs/Lab-Guide.pdf).
 3. In Bob, choose **File > Open Folder** and open the **`workspace/`** folder itself, not the whole repository.
 
 ## What's in this repository
 
 | Path | Contents |
 |---|---|
-| `Lab-Guide.pdf` | Step-by-step lab guide |
+| `LAB-GUIDE.md` | Step-by-step lab guide |
+| `docs/` | PDF copy of the guide and the guide's images |
 | `workspace/` | The folder you open in Bob |
 | `workspace/input/defective/` | Draft tender (EN + AR) with problems to find |
 | `workspace/input/clean/` | Corrected tender (EN + AR) |
