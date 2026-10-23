@@ -1,38 +1,27 @@
 # Smart Tender Validation with IBM Bob
 
-Hands-on lab: build a **Tender Validator** mode in IBM Bob that checks a government tender for completeness, regulatory compliance and Arabic–English consistency, then writes a standard HTML validation report.
+Hands-on lab: build a **Tender Validator** in IBM Bob. It checks a government tender for completeness, regulatory compliance and Arabic-English consistency, then produces a standard HTML validation report.
 
-**Duration:** about 75 minutes · **Level:** beginner, no coding required
+**Duration:** about 80 minutes · **Level:** beginner, no coding required
 
-## What you need
-
-- IBM Bob, installed and signed in
-- A web browser, to view the generated reports
-
-## Get started
+## Getting started
 
 1. Clone or download this repository.
-2. Open the **[Lab Guide](LAB-GUIDE.md)** and follow it from Exercise 0. A PDF copy is in [docs/Lab-Guide.pdf](docs/Lab-Guide.pdf).
-3. In Bob, choose **File > Open Folder** and open the **`workspace/`** folder itself, not the whole repository.
+2. In IBM Bob, choose **File > Open Folder** and open this repository's folder.
+3. Open the **[Lab Guide](LAB-GUIDE.md)** and follow the exercises. Everything you need to paste into Bob is in the guide. A PDF copy is in [Lab-Guide.pdf](Lab-Guide.pdf).
 
-## What's in this repository
+## Repository contents
 
-| Path | Contents |
+| Path | What it is |
 |---|---|
-| `LAB-GUIDE.md` | Step-by-step lab guide |
-| `docs/` | PDF copy of the guide and the guide's images |
-| `workspace/` | The folder you open in Bob |
-| `workspace/input/defective/` | Draft tender (EN + AR) with problems to find |
-| `workspace/input/clean/` | Corrected tender (EN + AR) |
-| `workspace/reference/` | Government Procurement and Contracts Regulation |
-| `workspace/.bob/skills/tender-report/` | Pre-built skill that produces the HTML report |
-| `workspace/output/` | Where Bob saves your reports |
-| `lab-assets/` | Text you copy in during the lab: mode fields (Exercise 1) and the completeness rule file (Exercise 4) |
+| `LAB-GUIDE.md` | The lab guide. Start here. |
+| `Lab-Guide.pdf` | PDF copy of the lab guide |
+| `documents/defective-tender/` | The draft tender, in English and Arabic. It contains problems for you to find. |
+| `documents/clean-tender/` | The corrected tender, in English and Arabic |
+| `documents/procurement_regulation.pdf` | The Government Procurement and Contracts Regulation (Training Edition) |
+| `templates/report_template.html` | The fixed report layout that your report skill fills in |
+| `guide-images/` | Screenshots used in the lab guide |
 
-## Start over
+Bob saves your validation reports to an `output/` folder, which it creates the first time it writes a report.
 
-Delete `workspace/.bob/custom_modes.yaml`, the `workspace/.bob/rules-tender-validator/` folder and any reports in `workspace/output/`. Keep `workspace/.bob/skills/`.
-
----
-
-The City Transport Authority, tender CTA/2026/T-0147 and the Government Procurement and Contracts Regulation (Training Edition) are fictional and were created for training only. The regulation is not a legal text.
+The City Transport Authority, the tender and the regulation are fictional and were created for training only.

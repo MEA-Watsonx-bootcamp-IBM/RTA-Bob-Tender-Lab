@@ -1,6 +1,5 @@
 .DS_Store
-.vscode/
 
-# Reports generated during the lab
-workspace/output/*
-!workspace/output/.gitkeep
+# Created while doing the lab
+output/
+.bob/
